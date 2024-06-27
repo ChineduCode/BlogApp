@@ -1,19 +1,20 @@
-const fetchBlogs = async ()=> {
-    const response = await fetch('http://localhost:3000/api/blogs', {
-        method: "GET"
-    })
-    return await response.json()
-}
+// const fetchBlogs = async ()=> {
+//     const response = await fetch('http://localhost:3000/api/blogs', {
+//         method: "GET"
+//     })
+//     return await response.json()
+// }
 
 const Home = async ()=> {
-    const blogs = await fetchBlogs()
-    const popularPost = blogs.find(blog => blog.popular === true)
-    const newPosts = blogs.filter(blog => blog.new === true)
-    const trendingPosts = blogs.filter(blog => blog.trending === true)
+    // const blogs = await fetchBlogs()
+    // const popularPost = blogs.find(blog => blog.popular === true)
+    // const newPosts = blogs.filter(blog => blog.new === true)
+    // const trendingPosts = blogs.filter(blog => blog.trending === true)
     
     return(
         <main className="homepage">
-            <div className="container">
+            Hello World
+            {/* <div className="container">
                 <div className="hero-section">
                     <div className="img-container">
                         <img src="/images/image-web-3-mobile.jpg" alt="" className="mobile-hero-img" />
@@ -50,7 +51,7 @@ const Home = async ()=> {
                         </div>
                     </div>
                 ))}
-            </div>
+            </div> */}
         </main>
     )
 }
