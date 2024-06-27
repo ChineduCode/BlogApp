@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Hydrogen VS Electric Cars",
+        "description": "Will hydrogen-fueled cars ever catch up to EVs ?",
+        "image": "/",
+        "new": true,
+        "popular": false,
+        "trending": false,
+        "author": "ChineduCode"
+    },
+    {
+        "title": "The Downsides of AI Artistry",
+        "description": "What are the possible adverse effects of on-demand AI image generation ?",
+        "image": "/",
+        "new": true,
+        "popular": false,
+        "trending": false,
+        "author": "ChineduCode"
+    },
+    {
+        "title": "Is VC Funding Drying Up ?",
+        "description": "Private funding by VC firms is down 50% YOY. We take a look at what that means.",
+        "image": "/",
+        "new": true,
+        "popular": false,
+        "trending": false,
+        "author": "ChineduCode"
+    },
+    {
+        "title": "The Bright Future of Web 3.0 ?",
+        "description": "We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise ?",
+        "image": "/images/image-web-3-mobile.jpg",
+        "new": false,
+        "popular": true,
+        "trending": false,
+        "author": "ChineduCode"
+    },
+    {
+        "title": "Reviving Retro PCs",
+        "description": "What happens when old PCs are given modern upgrades ?",
+        "image": "/images/image-retro-pcs.jpg",
+        "new": false,
+        "popular": false,
+        "trending": true,
+        "author": "ChineduCode"
+    },
+    {
+        "title": "Top ten laptops of 2022",
+        "description": "Our best picks for various needs and budgets",
+        "image": "/images/image-top-laptops.jpg",
+        "new": false,
+        "popular": false,
+        "trending": true,
+        "author": "ChineduCode"
+    },
+    {
+        "title": "The Growth of Gaming",
+        "description": "How the pandemic has sparked fresh opportunities",
+        "image": "/images/image-gaming-growth.jpg",
+        "new": false,
+        "popular": false,
+        "trending": true,
+        "author": "ChineduCode"
+    }
+]

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background-color: hsl(0, 0%, 100%);
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+}
+header nav {
+  position: fixed;
+  background-color: hsl(0, 0%, 100%);
+  top: 0px;
+  right: 0px;
+  width: 65%;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0 10px hsl(233, 8%, 79%);
+  min-height: 100vh;
+  transition: all 0.4s ease-in-out;
+  transform: translateX(120%);
+  z-index: 5;
+}
+header nav .menu-close {
+  text-align: right;
+  cursor: pointer;
+}
+header nav ul {
+  margin: 2.5rem 0;
+}
+header nav ul li {
+  margin: 15px 0;
+}
+header nav ul li a {
+  padding: 3px 0;
+  text-decoration: none;
+  color: hsl(240, 100%, 5%);
+}
+header .nav-active {
+  transform: translateX(0%);
+}
+header .menu-icon {
+  cursor: pointer;
+}
+
+main {
+  padding: 5rem 1.5rem 0;
+}
+
+.homepage .container img {
+  width: 100%;
+}
+.homepage .container .hero-section {
+  color: hsl(240, 100%, 5%);
+}
+.homepage .container .hero-section .desktop-hero-img {
+  display: none;
+}
+.homepage .container .hero-section .text-container .title {
+  margin: 1rem 0;
+}
+.homepage .container .hero-section .text-container button {
+  margin: 1.5rem 0;
+  display: inline-block;
+  padding: 10px 20px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  font-family: inherit;
+}
+.homepage .container .new-posts {
+  margin: 1.5rem 0;
+  background-color: hsl(240, 100%, 5%);
+  padding: 1rem;
+}
+.homepage .container .new-posts .heading {
+  color: hsl(35, 77%, 62%);
+  margin: 0.5rem 0;
+}
+.homepage .container .new-posts .post {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  color: hsl(36, 100%, 99%);
+}
+.homepage .container .new-posts .post:not(:last-child) {
+  border-bottom: 1px solid hsl(36, 100%, 99%);
+}
+.homepage .container .new-posts .post .description {
+  margin: 0.5rem 0;
+  line-height: 22px;
+}
+.homepage .trending-posts {
+  margin: 4rem 0;
+}
+.homepage .trending-posts .trending-post {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  grid-gap: 20px;
+}
+.homepage .trending-posts .trending-post img {
+  width: 100px;
+}
+.homepage .trending-posts .trending-post .text-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: hsl(240, 100%, 5%);
+  width: 100%;
+}
+.homepage .trending-posts .trending-post .text-container .num {
+  color: hsl(233, 8%, 79%);
+}
+.homepage .trending-posts .trending-post .text-container .description {
+  line-height: 30px;
+  color: hsl(236, 13%, 42%);
+}/*# sourceMappingURL=main.css.map */
